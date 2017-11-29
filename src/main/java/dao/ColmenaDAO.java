@@ -14,11 +14,11 @@ import util.DbUtil;
  *
  * @author FiJus
  */
-public class HorarioDAO {
+public class ColmenaDAO {
 
     private Connection connection;
 
-    public HorarioDAO() throws URISyntaxException {
+    public ColmenaDAO() throws URISyntaxException {
         connection = DbUtil.getConnection();
     }
 

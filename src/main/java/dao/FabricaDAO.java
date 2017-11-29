@@ -10,11 +10,11 @@ import java.util.ArrayList;
 import model.Mensaje;
 import util.DbUtil;
 
-public class MensajeDAO {
+public class FabricaDAO {
 
     private Connection connection;
 
-    public MensajeDAO() throws URISyntaxException {
+    public FabricaDAO() throws URISyntaxException {
         connection = DbUtil.getConnection();
     }
 

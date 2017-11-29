@@ -20,10 +20,10 @@ import util.DbUtil;
  *
  * @author LabingXEON
  */
-public class CategoriaDAO {
+public class ApiarioDAO {
     private Connection connection;
 
-    public CategoriaDAO() throws URISyntaxException {
+    public ApiarioDAO() throws URISyntaxException {
         connection = DbUtil.getConnection();
     }
 

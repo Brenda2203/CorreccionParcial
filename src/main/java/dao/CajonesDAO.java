@@ -10,11 +10,11 @@ import java.util.ArrayList;
 import model.EmpresaCliente;
 import util.DbUtil;
 
-public class EmpresaClienteDAO {
+public class CajonesDAO {
 
     private Connection connection;
 
-    public EmpresaClienteDAO() throws URISyntaxException {
+    public CajonesDAO() throws URISyntaxException {
         connection = DbUtil.getConnection();
     }
 

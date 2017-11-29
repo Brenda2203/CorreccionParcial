@@ -10,11 +10,11 @@ import java.util.ArrayList;
 import model.Funciones;
 import util.DbUtil;
 
-public class FuncionesDAO {
+public class CentroDAO {
 
     private Connection connection;
 
-    public FuncionesDAO() throws URISyntaxException {
+    public CentroDAO() throws URISyntaxException {
         connection = DbUtil.getConnection();
     }
 

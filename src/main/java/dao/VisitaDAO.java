@@ -10,11 +10,11 @@ import java.util.ArrayList;
 import model.Terminado;
 import util.DbUtil;
 
-public class TerminadoDAO {
+public class VisitaDAO {
 
     private Connection connection;
 
-    public TerminadoDAO() throws URISyntaxException {
+    public VisitaDAO() throws URISyntaxException {
         connection = DbUtil.getConnection();
     }
 
